@@ -5,6 +5,8 @@ logs
 
 
 # local env files
+.env.dev
+.env.prod*
 .env.local
 .env.*.local
 
