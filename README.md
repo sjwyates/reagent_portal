@@ -1,5 +1,9 @@
 # Reagent Portal
 
+## NOTE
+
+Although this implementation is workable, the Vue3/TS/Sass layer is overkill for this particular project. I may come back and work on this later, but for now I'm working on a simpler version with just Django templating and no separate frontend application ([see here](https://github.com/sjwyates/qcportal)).
+
 ## Overview
 
 The Reagent Portal is a consumable inventory management system (CIMS) designed to be used in labs that perform mostly routine testing, such as quality control (QC). Its essential function is to uniquely identify and track each individual unit of a reagent - for instance, a bottle of methanol - throughout its lifecycle, from receipt to disposal. It also allows user to:
